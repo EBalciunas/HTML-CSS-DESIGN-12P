@@ -82,17 +82,22 @@ header {
   width: 200px;
   height: 200px;
   background-color: white;
-}
-
-h1 {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  gap: 0.5rem;
+}
+
+h1 {
+  font-size: 70px;
 }
 
 .box-text {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  color: rgb(197, 202, 207);
+  font-size: 15px;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
 }
