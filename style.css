@@ -129,5 +129,31 @@ h6 {
   text-align: left;
 }
 
+ul {
+  color: rgb(46, 180, 46);
+}
+
+li {
+  text-decoration: none;
+  position: relative;
+
+  margin-top: 1rem;
+}
+
 a {
+  text-decoration: none;
+  color: rgb(197, 202, 207);
+}
+
+.main-btn {
+  all: unset;
+  cursor: pointer;
+  border: 1px solid rgb(197, 202, 207);
+  margin-top: 3rem;
+  padding: 0.6rem 2.5rem;
+  font-size: 0.8rem;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
 }
