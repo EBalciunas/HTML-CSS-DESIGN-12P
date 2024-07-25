@@ -62,9 +62,37 @@ header {
   background-color: red;
 }
 
+.main-img-wrapper {
+  position: relative;
+  width: 350px;
+  height: 550px;
+}
+
 .main-img {
   height: 550px;
   width: 350px;
   object-fit: cover;
   margin-bottom: 4rem;
+}
+
+.center-box {
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  width: 200px;
+  height: 200px;
+  background-color: white;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.box-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
